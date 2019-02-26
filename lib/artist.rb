@@ -9,6 +9,7 @@ class Artist
   def add_song(song)
     self.songs << song
     song.artist = self
+    # soung.count?
   end
    
   def add_song_by_name(name, genre)
